@@ -24,32 +24,30 @@ limitations under the License.
 
 > [Natural logarithm][@stdlib/math/base/special/ln] of `1/2`.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-ln-half
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-LN_HALF = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-half@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-half@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.LN_HALF;
-})();
-</script>
+var LN_HALF = require( '@stdlib/constants-float64-ln-half' );
 ```
 
 #### LN_HALF
@@ -73,21 +71,11 @@ var bool = ( LN_HALF === -0.6931471805599453 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-half@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var LN_HALF = require( '@stdlib/constants-float64-ln-half' );
 
 console.log( LN_HALF );
 // => -0.6931471805599453
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -167,10 +155,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-float64-ln-half/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-float64-ln-half/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-float64-ln-half/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-float64-ln-half/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-ln-half/main/LICENSE
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/umd
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
 
 </section>
 
