@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import LN_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-half@deno/mod.js';
+import LN_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-half@v0.0.8-deno/mod.js';
 ```
 
 #### LN_HALF
@@ -56,7 +56,7 @@ var bool = ( LN_HALF === -0.6931471805599453 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import LN_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-half@deno/mod.js';
+import LN_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-half@v0.0.8-deno/mod.js';
 
 console.log( LN_HALF );
 // => -0.6931471805599453
