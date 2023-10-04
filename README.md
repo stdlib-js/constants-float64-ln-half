@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import LN_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-half@esm/index.mjs';
+import LN_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-half@v0.1.1-esm/index.mjs';
 ```
 
 #### LN_HALF
@@ -72,7 +72,7 @@ var bool = ( LN_HALF === -0.6931471805599453 );
 <body>
 <script type="module">
 
-import LN_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-half@esm/index.mjs';
+import LN_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-half@v0.1.1-esm/index.mjs';
 
 console.log( LN_HALF );
 // => -0.6931471805599453
